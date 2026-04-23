@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TallerPintura.API/TallerPintura.API.csproj" />
+  <Project Path="TallerPintura.Application/TallerPintura.Application.csproj" />
+  <Project Path="TallerPintura.Domain/TallerPintura.Domain.csproj" />
+  <Project Path="TallerPintura.Infrastructure/TallerPintura.Infrastructure.csproj" />
+  <Project Path="TallerPintura.Persistence/TallerPintura.Persistence.csproj" />
+</Solution>
