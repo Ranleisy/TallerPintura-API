@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TallerPintura.Application\TallerPintura.Application.csproj" />
+    <ProjectReference Include="..\TallerPintura.Infrastructure\TallerPintura.Infrastructure.csproj" />
+    <ProjectReference Include="..\TallerPintura.Persistence\TallerPintura.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
